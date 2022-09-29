@@ -117,6 +117,10 @@ class TestCollatz (TestCase):
         v = collatz_eval(69, 69)
         self.assertEqual(v, 15)
 
+    def test_eval_21(self):
+        v = collatz_eval(4, 6)
+        self.assertEqual(v, 9)
+
 
     # -----
     # print

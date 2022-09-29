@@ -55,9 +55,8 @@ def collatz_eval(i, j):
     temp=0
 
     for x in range(i, j + 1):
-        if x%2==0:
-            if x/2 in ccache:
-                temp=ccache[x/2]+1
+        if x%2==0 and x/2 in ccache:
+            temp=ccache[x/2]+1
         else:
             temp = cycle_length(x)
             ccache[x]=temp
