@@ -48,11 +48,19 @@ def collatz_eval(i, j):
     assert type(j) == int
     assert i > 0 and j > 0
 
+    ccache = {}
     max = 0
     if i > j:
         i, j = j, i
+    temp=0
+
     for x in range(i, j + 1):
-        temp = cycle_length(x)
+        if x%2==0:
+            if x/2 in ccache:
+                temp=ccache[x/2]+1
+        else:
+            temp = cycle_length(x)
+            ccache[x]=temp
         # print("Cycle length for ", x, "is:", temp)
         if temp > max: max = temp
 
