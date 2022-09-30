@@ -1,0 +1,156 @@
+commit 407e775a43311ee9c9b69c6e161c4dcdc66740ff
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Wed Sep 28 23:23:38 2022 -0500
+
+    phase 3: implementation of lazy cache edited
+
+commit 9a1723d2fdfd3894ebcdbc557bd4d2f8527da820
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Wed Sep 28 22:25:04 2022 -0500
+
+    phase 3: implementation of lazy cache
+
+commit 713275d4b16bf55996bde8d4d50a136ed046a368
+Merge: fd9f5d6 14166e0
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Mon Sep 26 04:10:48 2022 +0000
+
+    Merge branch 'dev' into 'main'
+    
+    Dev
+    
+    See merge request koshachii2200/collatz!1
+
+commit 14166e07d92050a5723f9a38ce3a3da147c0e193
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 23:00:22 2022 -0500
+
+    fixed misinputs in .in and .out files
+
+commit 535a95bc35e20d42cbd93e370325b5daa8699663
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sun Sep 25 22:54:53 2022 -0500
+
+    phase 2 acceptance tests finished
+
+commit 662aa54b3bd8edb1d0527b18ef3aa60c8081fe02
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sun Sep 25 22:46:40 2022 -0500
+
+    finished acceptance tests
+
+commit 5c1324063da3d3dd5d90282ad2003e559e3894f4
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 22:15:20 2022 -0500
+
+    added some acceptance tests
+
+commit b80daf0612bd8c9d8e15b9bdfe0774880df2202d
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 17:58:55 2022 -0500
+
+    updated RunCollatz.out so that make test succeeds
+
+commit 955b68ba40e69b15b7c20805945a10d8b04ab9b7
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 17:43:40 2022 -0500
+
+    fixed test_solve
+
+commit 67a3998845d91629b811b1412bb7aef28d7b8e10
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 17:24:25 2022 -0500
+
+    comenting out test_solve for now so that we can write acceptance tests
+
+commit f9fc32ef858102f2b50deb8e3a0db8460d9886b9
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 17:14:29 2022 -0500
+
+    implemented collatz_eval
+
+commit 1aba6da8be28c4b267a2359e6221803e4786de5b
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sun Sep 25 16:36:07 2022 -0500
+
+    phase 2 added all unit tests
+
+commit 363333954c11c59532df9aef2cfda5ed16a08ff9
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sun Sep 25 16:02:57 2022 -0500
+
+    testing phase 2 commits
+
+commit 99defeaca829348bedb8c2609f5106551b493181
+Merge: cb33f99 94baa11
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sun Sep 25 16:01:56 2022 -0500
+
+    Merge branch 'dev' of https://gitlab.com/koshachii2200/collatz into dev
+
+commit cb33f999bb552c908073482ca6e51e5219595316
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sun Sep 25 16:00:07 2022 -0500
+
+    testing phase 2
+
+commit 94baa1194d5afff76538ccf766adb9b8701e6851
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sun Sep 25 15:41:20 2022 -0500
+
+    phase 2 fixed unit tests
+
+commit fd9f5d6c3d1846d243fe2bf389189393bb6b6f11
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Sep 17 18:39:06 2022 -0500
+
+    phase 1 ci success check 2
+
+commit e63e79d202504672e802450a3796e7782d2272b2
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Sep 17 18:36:33 2022 -0500
+
+    phase 1 ci success check
+
+commit 2f4fc1c2223251a23db8aab9ba4e29dde3d265de
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Sep 17 18:24:03 2022 -0500
+
+    Phase 1 complete
+
+commit 5084a9eb5ab257b7f2503bcc27203c148dd7bb82
+Merge: 19c2037 a3d6e83
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Sep 17 18:23:38 2022 -0500
+
+    Merge branch 'main' of https://gitlab.com/koshachii2200/collatz
+
+commit a3d6e83e9e5291c9e4796d1eed7c966bffb92f3c
+Author: Siddharth Sundaram <siddharthsundaram@utexas.edu>
+Date:   Sat Sep 17 23:23:21 2022 +0000
+
+    Delete test
+
+commit 19c2037754f868fdb2a737b812fd6a73f3dd7b2b
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Sep 17 18:22:53 2022 -0500
+
+    Phase 1 complete
+
+commit 237c5bb3b710ed6a1b0120b751d80591c57b3c29
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sat Sep 17 18:22:21 2022 -0500
+
+    testing push
+
+commit 77f7e922823a634346d65fbb1d2e27a24ac03e49
+Author: Fares Fraij <fares@cs.utexas.edu>
+Date:   Tue Aug 16 21:39:34 2022 -0500
+
+    second commit
+
+commit 0f5b31db30162c928bf1dac7e5652acec5e01de3
+Author: Fares Fraij <fares@utexas.edu>
+Date:   Wed Aug 17 02:37:31 2022 +0000
+
+    First commit

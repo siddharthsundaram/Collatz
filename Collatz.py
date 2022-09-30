@@ -10,6 +10,7 @@
 # collatz_read
 # ------------
 
+ccache = {}
 
 def collatz_read(s):
     """
@@ -24,7 +25,7 @@ def collatz_read(s):
 # collatz_eval
 # ------------
 
-def cycle_length (n) :
+'''def cycle_length (n) :
     assert n > 0
     c = 1
     while n > 1 :
@@ -34,7 +35,22 @@ def cycle_length (n) :
             n = (3 * n) + 1
         c += 1
     assert c > 0
-    return c
+    return c'''
+
+def cycle_length(n):
+    assert n>0
+    c=-1
+    if n==1: return 1
+    elif n%2==0: c=n//2
+    else: c=3*n+1
+    if c not in ccache:ccache[c]=cycle_length(c)
+    return ccache[c]+1
+
+    '''if n in ccache: return ccache[n]
+    elif n%2==0: return cycle_len(n//2)+1
+    else: return cycle_len((3*n)+1)+1'''
+
+
 
 
 def collatz_eval(i, j):
@@ -48,7 +64,6 @@ def collatz_eval(i, j):
     assert type(j) == int
     assert i > 0 and j > 0
 
-    ccache = {}
     max = 0
     if i > j:
         i, j = j, i
