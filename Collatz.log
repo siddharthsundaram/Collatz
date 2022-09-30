@@ -1,3 +1,9 @@
+commit 921b318215158dbf0a9d1298e2c90fb40a08896b
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Fri Sep 30 11:23:13 2022 -0500
+
+    optimization of cycle_length
+
 commit 407e775a43311ee9c9b69c6e161c4dcdc66740ff
 Author: Lauren Adams <laurensmadams@utexas.edu>
 Date:   Wed Sep 28 23:23:38 2022 -0500
