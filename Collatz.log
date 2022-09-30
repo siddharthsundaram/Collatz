@@ -1,3 +1,9 @@
+commit d7aa84dfad2d4d3940383e61df50426b94e9556c
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Fri Sep 30 12:07:18 2022 -0500
+
+    sent results of make test to .out file instead of .tmp
+
 commit 921b318215158dbf0a9d1298e2c90fb40a08896b
 Author: Lauren Adams <laurensmadams@utexas.edu>
 Date:   Fri Sep 30 11:23:13 2022 -0500
