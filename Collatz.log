@@ -1,3 +1,27 @@
+commit dc779749a81ea6663321dcf31ef34e29fce847a5
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Oct 1 02:31:15 2022 -0500
+
+    edited makefile, waiting for merge request
+
+commit 868d51614513434d99583f4dfdb4f7a277e4e2fb
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Sat Oct 1 02:28:43 2022 -0500
+
+    changed file names
+
+commit 12bdf26cdd34fb0c377b7694d91c6503cfb8bdfb
+Author: Lauren Adams <laurensmadams@utexas.edu>
+Date:   Sat Oct 1 02:20:22 2022 -0500
+
+    edited makefile
+
+commit 38395e321fe4318c3cbc6d0dbca54364e0c621b4
+Author: sidsun <siddharthsundaram@utexas.edu>
+Date:   Fri Sep 30 13:20:45 2022 -0500
+
+    added tests for other functions
+
 commit d7aa84dfad2d4d3940383e61df50426b94e9556c
 Author: sidsun <siddharthsundaram@utexas.edu>
 Date:   Fri Sep 30 12:07:18 2022 -0500
