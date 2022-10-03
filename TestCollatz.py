@@ -2,7 +2,7 @@
 
 # -------------------------------
 # projects/collatz/TestCollatz.py
-# Copyright (C) 
+# Copyright (C)
 # Glenn P. Downing
 # -------------------------------
 
@@ -32,7 +32,7 @@ class TestCollatz (TestCase):
         i, j = collatz_read(s)
         self.assertEqual(i,  1)
         self.assertEqual(j, 10)
-    
+
     def test_read_2(self):
         s = "4 6\n"
         i, j = collatz_read(s)
@@ -127,7 +127,6 @@ class TestCollatz (TestCase):
         v = collatz_eval(4, 6)
         self.assertEqual(v, 9)
 
-
     # -----
     # print
     # -----
@@ -162,7 +161,7 @@ class TestCollatz (TestCase):
         collatz_solve(r, w)
         self.assertEqual(
             w.getvalue(), "1 10 20\n100 200 125\n201 210 89\n900 1000 174\n")
-            
+
     def test_solve_2(self):
         r = StringIO("17 38\n5001 10000\n100 1000\n1 999999\n")
         w = StringIO()
@@ -187,6 +186,7 @@ class TestCollatz (TestCase):
 # ----
 # main
 # ----
+
 
 if __name__ == "__main__":
     main()
